@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <ul class="navbar_list">
+                <li class="navbar_items">Home</li>
+                <li class="navbar_items dropdown"><p class="dropdown_text">Dropdown link</p>
+                    <img class="menu" src="./img/right-arrow-black-triangle.png" alt="Menu">
+                    <ul class="dropdown_list">
+                        <li class="dropdown_list_items">Dropdown1</li>
+                        <li class="dropdown_list_items">Dropdown2</li>
+                        <li class="dropdown_list_items dropdown_inner"><p>Dropdown3</p>
+                           
+                            <ul class="dropdown_list_inner">
+                                <li class="dropdown_list_items">Dropdown1</li>
+                                <li class="dropdown_list_items">Dropdown2</li>
+                                <li class="dropdown_list_items">Dropdown3</li>
+                                <li class="dropdown_list_items">Dropdown4</li>
+                            </ul>
+                        </li>
+                        <li class="dropdown_list_items">Dropdown4</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>
